@@ -1,0 +1,37 @@
+body{
+  background-image: url(../img/16245.jpg);
+  background-size: cover;
+}
+form{
+padding-left: 20px;
+}
+
+.elquehayquearreglar{
+  padding-left: 15px;
+}
+label{
+  font-size: 20px;
+}
+footer{
+  margin: 0 auto;
+  background-color: #E8F0F0;
+  overflow: hidden;
+}
+footer nav{
+  4rem 2rem;
+}
+.nav-izq{
+  float: left;
+  width: 60%;
+}
+.nav-der{
+  float: right;
+  width: 40%;
+}
+footer nav ul li{
+  list-style-type: none;
+  display: inline-inline-block;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}

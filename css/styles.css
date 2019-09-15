@@ -1,0 +1,48 @@
+body{
+  background-image: url(../img/16245.jpg);
+  background-size: cover;
+}
+
+div.jumbotron{
+  background-image: url(../img/madera.jpg);
+  background-size: contain;
+}
+section{
+  width: 100%;
+  justify-content: center;
+}
+img.producto{
+  width: 288px;
+  height: 300px;
+}
+
+article{
+  padding: 20px;
+}
+
+header{
+  background-color: #F5B98A;
+}
+footer{
+  margin: 0 auto;
+  background-color: #E8F0F0;
+  overflow: hidden;
+}
+footer nav{
+  4rem 2rem;
+}
+.nav-izq{
+  float: left;
+  width: 60%;
+}
+.nav-der{
+  float: right;
+  width: 40%;
+}
+footer nav ul li{
+  list-style-type: none;
+  display: inline-inline-block;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
