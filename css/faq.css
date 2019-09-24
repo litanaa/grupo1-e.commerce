@@ -2,27 +2,6 @@ body{
   background-image: url(../img/16245.jpg);
   background-size: cover;
 }
-
-div.jumbotron{
-  background-image: url(../img/madera.jpg);
-  background-size: contain;
-}
-section{
-  width: 100%;
-  justify-content: center;
-}
-img.producto{
-  width: 288px;
-  height: 300px;
-}
-
-article{
-  padding: 20px;
-}
-
-header{
-  background-color: #F5B98A;
-}
 footer{
   margin: 0 auto;
   background-color: #494B4B;

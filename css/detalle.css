@@ -24,8 +24,10 @@ header{
 }
 footer{
   margin: 0 auto;
-  background-color: #E8F0F0;
+  background-color: #494B4B;
   overflow: hidden;
+  color: white;
+  padding: 10px;
 }
 footer nav{
   4rem 2rem;
@@ -34,14 +36,42 @@ footer nav{
   float: left;
   width: 60%;
 }
+nav-izq-abajo{
+  float: left;
+  width: 55%;
+}
+
 .nav-der{
   float: right;
-  width: 40%;
+  width: 35%;
 }
+
 footer nav ul li{
   list-style-type: none;
-  display: inline-inline-block;
+  display: inline-block;
   box-sizing: border-box;
   float: left;
   padding: 10px;
 }
+i {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+nav.nav-izq ul li a, nav.nav-izq-abajo ul li a {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+nav.navegacion-abajo{
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+nav.nav-der-abajo ul li a{
+  display: inline;
+  width: 30%;
+float: center;}
