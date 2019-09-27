@@ -2,18 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Happy Home!</title>
+    <title>Cuadros</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/stylesingreso.css">
+
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="css/detalle.css">
   </head>
+
+
   <body>
 
+
 <header>
-
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">HH</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,8 +37,8 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="detalle.html">Cuadros</a>
             <a class="dropdown-item" href="#">Deco</a>
-            <a class="dropdown-item" href="#">Mesas</a>
-            <a class="dropdown-item" href="#">Lamparas</a>
+            <a class="dropdown-item" href="mesas.html">Mesas</a>
+            <a class="dropdown-item" href="lamparas.html">Lamparas</a>
             <a class="dropdown-item" href="#">Canasto & Contenedores</a>
             <a class="dropdown-item" href="#">Almohadones</a>
           </div>
@@ -52,29 +54,63 @@
     </div>
   </nav>
 
+
 </header>
 
 
 <div class="container">
-<form class="row" action="validar.php" method="post">
-  <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
-    <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
-    <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-  </div>
-  <div class="form-group form-check" class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <div class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
-  <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
-</form>
+      <div class="jumbotron">
+      <h1 class="display-4"class="center" ><b>CUADROS</b></h1>
+      <p class="lead"> Dale vida a tus paredes!</p>
+      <hr class="my-4">
+
+          </div>
 </div>
+
+<main>
+
+
+  <section class="row">
+
+    <article>
+    <div class="card1" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/plumas.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Plumas</a></h5>
+    <p class="card-text"> $550 </p>
+    <br>
+    <p class="card-text"> <b> 12 CUOTAS</b></p>
+    </div>
+</div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/brujula.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Love</a></h5>
+    <p class="card-text"> $550 </p>
+    <br>
+    <p class="card-text"> <b> 12 CUOTAS</b></p>
+  </div>
+  </div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/simetria.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title"><a href="#" class="INDEX">Simetría</a></h5>
+  <p class="card-text"> $550 </p>
+  <br>
+  <p class="card-text"> <b> 12 CUOTAS</b></p>
+
+  </div>
+  </div>
+  </article>
+
+  </section>
+</main>
 
 <footer>
   <div class="row">
@@ -127,6 +163,7 @@
 </nav>
 </div>
 </footer>
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

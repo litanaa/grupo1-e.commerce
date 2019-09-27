@@ -34,8 +34,8 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="detalle.html">Cuadros</a>
               <a class="dropdown-item" href="#">Deco</a>
-              <a class="dropdown-item" href="#">Mesas</a>
-              <a class="dropdown-item" href="#">Lamparas</a>
+              <a class="dropdown-item" href="mesas.html">Mesas</a>
+              <a class="dropdown-item" href="lamparas.html">Lamparas</a>
               <a class="dropdown-item" href="#">Canasto & Contenedores</a>
               <a class="dropdown-item" href="#">Almohadones</a>
             </div>
