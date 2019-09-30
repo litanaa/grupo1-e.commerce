@@ -1,5 +1,3 @@
 <?php
-
-"holas mundo!" 
-
- ?>
+echo 'Hola mundo.';
+?>

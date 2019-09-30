@@ -17,44 +17,8 @@
 
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">HH</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="ingreso.html">Ingresá <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="registro.html">Registrate</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Categorías
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="detalle.html">Cuadros</a>
-            <a class="dropdown-item" href="#">Deco</a>
-            <a class="dropdown-item" href="#">Mesas</a>
-            <a class="dropdown-item" href="#">Lamparas</a>
-            <a class="dropdown-item" href="#">Canasto & Contenedores</a>
-            <a class="dropdown-item" href="#">Almohadones</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mis Pedidos <i class="fas fa-shopping-cart"></i></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
+  <?php include_once('partials/header.php');?>
 
 </header>
 
@@ -80,7 +44,7 @@
   <div class="card-body">
     <h5 class="card-title">Cuadros</h5>
     <p class="card-text">Dale vida a tus paredes</p>
-    <a href="detalle.html" class=>más +</a>
+    <a href="detalle.php" class=>más +</a>
   </div>
 </div>
   </article>
@@ -91,7 +55,7 @@
   <div class="card-body">
   <h5 class="card-title">Deco</h5>
   <p class="card-text"> El foco está en los detalles</p>
-  <a href="#" class=>más +</a>
+  <a href="deco.php" class=>más +</a>
   </div>
   </div>
   </article>
@@ -101,7 +65,7 @@
   <img class="producto" src="img/mesas.jpg" class="card-img-top" alt="...">
   <div class="card-body">
   <h5 class="card-title">Mesas</h5>
-  <p class="card-text"> Arma tus espacios </p>
+  <p class="card-text"> Armá tus espacios </p>
   <a href="#" class=>más +</a>
   </div>
   </div>
@@ -123,8 +87,8 @@
 <img class="producto" src="img/canasto.jpg" class="card-img-top" alt="...">
 <div class="card-body">
 <h5 class="card-title">Canástos & Contenedores</h5>
-<p class="card-text"> Encontá una manera más fácil de organizarte </p>
-<a href="#" class=>más +</a>
+<p class="card-text"> La manera más fácil de organizarte </p>
+<a href="canastos.php" class=>más +</a>
 </div>
 </div>
 </article>
@@ -135,7 +99,7 @@
 <div class="card-body">
 <h5 class="card-title">Almohadones</h5>
 <p class="card-text"> Buscá estar cómodo</p>
-<a href="almohadones.html" class=>más +</a>
+<a href="almohadones.php" class=>más +</a>
 </div>
 </div>
 </article>
@@ -144,55 +108,9 @@
 </main>
 
 <footer>
-  <div class="row">
 
-<nav class="nav-izq">
-  <ul>
-    <li>Conocenos</li>
-    <li>Dónde estamos?</li>
-    <li>
-      <a href="faq.html">Preguntas Frecuentes</a>
-    </li>
-  </ul>
-</nav>
+<?php include_once('partials/footer.php');?>
 
-<nav class="nav-der">
-  <ul>
-    <li>
-<a href="http://Facebook.com" target="new"><i class="fab fa-facebook-f"></i></a>
-    </li>
-    <li>
-      <a href="http://Twitter.com" target="new"><i class="fab fa-twitter"></i></a>
-    </li>
-    <li>
-      <a href="http://Instagram.com" target="new"><i class="fab fa-instagram"></i></a>
-    </li>
-  </ul>
-</nav>
-
-<div class="navegacion-abajo">
-
-
-<nav class="nav-izq-abajo">
-  <ul>
-    <li>Contactanos:</li>
-
-    <li> <a href="faq.html"><i class="fas fa-phone"></i> Llamanos!</a>
-     </li>
-    <li>
-      <a href="faq.html"><i class="far fa-envelope"></i> HappyHome@gmail.com</a>
-    </li>
-  </ul>
-</nav>
-
-<nav class="nav-der-abajo">
-  <ul>
-    <li>
-<a class="mercado" href="http://mercadopago.com.ar"> <img src="img/mercadopago.png" alt="mercadopago"></a>
-    </li>
-
-</nav>
-</div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

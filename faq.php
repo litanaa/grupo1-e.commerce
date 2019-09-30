@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Happy Home! - Preguntas Frecuentes</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+    <title>Happy Home!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
@@ -10,6 +11,14 @@
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
   </head>
   <body>
+
+    <header>
+
+      <?php include_once('partials/header.php');?>
+
+    </header>
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">HH</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,55 +127,7 @@
 
 
 <footer>
-      <div class="row">
-
-    <nav class="nav-izq">
-      <ul>
-        <li>Conocenos</li>
-        <li>Dónde estamos?</li>
-        <li>
-          <a href="faq.html">Preguntas Frecuentes</a>
-        </li>
-      </ul>
-    </nav>
-
-    <nav class="nav-der">
-      <ul>
-        <li>
-    <a href="http://Facebook.com" target="new"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="http://Twitter.com" target="new"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="http://Instagram.com" target="new"><i class="fab fa-instagram"></i></a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="navegacion-abajo">
-
-
-    <nav class="nav-izq-abajo">
-      <ul>
-        <li>Contactanos:</li>
-
-        <li> <a href="faq.html"><i class="fas fa-phone"></i> Llamanos!</a>
-         </li>
-        <li>
-          <a href="faq.html"><i class="far fa-envelope"></i> HappyHome@gmail.com</a>
-        </li>
-      </ul>
-    </nav>
-
-    <nav class="nav-der-abajo">
-      <ul>
-        <li>
-    <a class="mercadopago" href="http://mercadopago.com.ar"> <img src="img/mercadopago.png" alt="mercadopago"></a>
-        </li>
-
-    </nav>
-    </div>
+      <?php include_once('partials/footer.php');?>
     </footer>
 
 
