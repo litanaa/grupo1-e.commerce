@@ -19,6 +19,20 @@ file_put_contents('data/users.json', $json);
 
 }
 
+if ($_FILES) {
+  if ($_FILES["imagen"]["error"] != 0){
+    echo "Hubo un error al cargar la imagen";
+  }
+  else {
+    $ext = pathinfo($_FILES ["imagen"]["name"], PATHINFO_EXTENSION);
+    if ($ext != "jpg" && $ext != "jpeg" && $ext != "png") {
+      echo "La imagen debe ser jpg o png <br>";
+    }
+    else {
+      move_uploaded_file($_FILES ["imagen"]["tmp_name"], "archivos/imagen." . $ext);
+    }
+  }
+}
 
  ?>
 
