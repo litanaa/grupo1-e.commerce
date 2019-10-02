@@ -19,8 +19,6 @@
     </header>
 
 
-
-
 <div class="container">
     <div class="accordion" id="accordionExample">
       <div class="card">

@@ -1,17 +1,31 @@
 <?php
 
-session_star();
-require ('includes/functions.php');
+$email= "";
+$password= "";
+$nombre= "";
 
-if (!is_logged()){
-  redirect ('ingreso.php')
+if ($_POST){
+  $email=$POST["email"];
+  $password=$POST["password"];
+  $nombre=$POST["nombre"];
 }
 
-
+if ($_FILES) {
+  if ($_FILES["imagen"]["error"] != 0){
+    echo "Hubo un error al cargar la imagen";
+  }
+  else {
+    $ext = pathinfo($_FILES ["imagen"]["name"], PATHINFO_EXTENSION);
+    if ($ext != "jpg" && $ext != "jpeg" && $ext != "png") {
+      echo "La imagen debe ser jpg o png <br>";
+    }
+    else {
+      move_uploaded_file($_FILES ["imagen"]["tmp_name"], "data/imagen." . $ext);
+    }
+  }
+}
 
  ?>
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -31,7 +45,11 @@ if (!is_logged()){
 
     </header>
 
-    <h1><? = $_SESSION ['user'] ['email'] ?></h1>
+  <?php if($nombre == NULL) : ?>
+    <span> No está logueado</span>
+      <?else : ?>
+      <span><?$nombre?></span>
+    <?php endif; ?>
 
     <div class="container">
       <ul class="list-group list-group-horizontal">
@@ -63,7 +81,18 @@ if (!is_logged()){
         <li class="list-group-item">1225</li>
       </ul>
       <br>
-      <button type="button" class="btn btn-primary">Cambiar datos</button>
+
+      <form class="" action="perfil.php" method="post" enctype="multipart/form-data">
+
+        <div class="form-group col-md-4">
+          <label for="imagen">Cargá tu foto</label>
+          <input type="file" class="" id="imagen" name="imagen" value="">
+        </div>
+    <input type="submit" name="" value="Enviar">
+
+      </form>
+
+
     </div>
 
     <a href="logout.php">Cerrar Sesión</a>

@@ -1,25 +1,9 @@
 <?php
-require ('includes/functions.php');
-
-session_star();
 
 if ($_POST){
-  $json = file_get_contents ('data/users.json');
-
-$users = json_decode($json, true);
-
-foreach ($users as $user) {
-          if ($_POST ['email'] === $user ['email'] && password_verify($_POST ['password'],$user['password']) {
-            $SESSION['user'] = [
-          'email' => $uder ['email']
-      ];
-
-      redirect ('perfil.php');
-      break;
-  }
+header ("Location:perfil.php");
+exit;
 }
-
-
  ?>
 
 
@@ -44,16 +28,16 @@ foreach ($users as $user) {
     </header>
 
 <div class="container">
-<form class="row" action="validar.php" method="post">
+<form class="row" action="ingreso.php" method="post">
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email" name="email" value="<?=$email?>">
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más.</small>
   </div>
 
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="email" value="<?=$password?>">
   </div>
 
   <div class="form-group form-check" class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
