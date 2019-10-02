@@ -35,10 +35,10 @@
             Categorías
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="detalle.html">Cuadros</a>
+            <a class="dropdown-item" href="detalle.php">Cuadros</a>
             <a class="dropdown-item" href="#">Deco</a>
-            <a class="dropdown-item" href="mesas.html">Mesas</a>
-            <a class="dropdown-item" href="lamparas.html">Lamparas</a>
+            <a class="dropdown-item" href="mesas.php">Mesas</a>
+            <a class="dropdown-item" href="lamparas.php">Lamparas</a>
             <a class="dropdown-item" href="#">Canasto & Contenedores</a>
             <a class="dropdown-item" href="#">Almohadones</a>
           </div>

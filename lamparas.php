@@ -110,6 +110,46 @@
   </article>
 
   </section>
+  <section class="row">
+
+    <article>
+    <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img\lampara-de-mesa-moderna-cromo-psicodelia-1-tactil-touch.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Lampara ModernTouch</a></h5>
+    <p class="card-text"> $9899 </p>
+    <br>
+    <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
+    </div>
+</div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img\lampara-escritorio-vintage.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Lampara Oldesk</a></h5>
+    <p class="card-text"> $3299 </p>
+    <br>
+    <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
+  </div>
+  </div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img\set-x-3-farol-estaca-solar-lampara-jardin-balcon-exterior-D_NQ_NP_774803-MLA32131221394_092019-F.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title"><a href="#" class="INDEX">Lampara Garden </a></h5>
+  <p class="card-text"> $5999 </p>
+  <br>
+  <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
+
+  </div>
+  </div>
+  </article>
+
+  </section>
 </main>
 
 <footer>
