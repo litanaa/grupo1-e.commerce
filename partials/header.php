@@ -7,22 +7,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="../grupo1-ecommerce/ingreso.php">Ingresá <span class="sr-only"></span></a>
+        <a class="nav-link" href="../ingreso.php">Ingresá <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../grupo1-ecommerce/registro.php">Registrate</a>
+        <a class="nav-link" href="../registro.php">Registrate</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Categorías
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="detalle.php">Cuadros</a>
-          <a class="dropdown-item" href="deco.php">Deco</a>
+          <a class="dropdown-item" href="../detalle.php">Cuadros</a>
+          <a class="dropdown-item" href="#">Deco</a>
           <a class="dropdown-item" href="#">Mesas</a>
           <a class="dropdown-item" href="#">Lamparas</a>
-          <a class="dropdown-item" href="canastos.php">Canasto & Contenedores</a>
-          <a class="dropdown-item" href="almohadones.php">Almohadones</a>
+          <a class="dropdown-item" href="#">Canasto & Contenedores</a>
+          <a class="dropdown-item" href="../almohadones.php">Almohadones</a>
         </div>
       </li>
       <li class="nav-item">

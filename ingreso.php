@@ -1,7 +1,33 @@
+<?php
+require ('includes/functions.php');
+
+session_star();
+
+if ($_POST){
+  $json = file_get_contents ('data/users.json');
+
+$users = json_decode($json, true);
+
+foreach ($users as $user) {
+          if ($_POST ['email'] === $user ['email'] && password_verify($_POST ['password'],$user['password']) {
+            $SESSION['user'] = [
+          'email' => $uder ['email'],
+      ];
+
+      redirect ('perfil.php');
+      break;
+  }
+}
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
     <title>Happy Home!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,61 +37,25 @@
   </head>
   <body>
 
-<header>
+    <header>
 
+      <?php include_once('partials/header.php');?>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">HH</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="ingreso.html">Ingresá <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="registro.html">Registrate</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Categorías
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="detalle.html">Cuadros</a>
-            <a class="dropdown-item" href="#">Deco</a>
-            <a class="dropdown-item" href="mesas.html">Mesas</a>
-            <a class="dropdown-item" href="lamparas.html">Lamparas</a>
-            <a class="dropdown-item" href="#">Canasto & Contenedores</a>
-            <a class="dropdown-item" href="#">Almohadones</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mis Pedidos <i class="fas fa-shopping-cart"></i></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-</header>
-
+    </header>
 
 <div class="container">
 <form class="row" action="validar.php" method="post">
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputEmail1">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más.</small>
   </div>
+
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputPassword1">Contraseña</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
   </div>
+
   <div class="form-group form-check" class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -77,55 +67,7 @@
 </div>
 
 <footer>
-  <div class="row">
-
-<nav class="nav-izq">
-  <ul>
-    <li>Conocenos</li>
-    <li>Dónde estamos?</li>
-    <li>
-      <a href="faq.html">Preguntas Frecuentes</a>
-    </li>
-  </ul>
-</nav>
-
-<nav class="nav-der">
-  <ul>
-    <li>
-<a href="http://Facebook.com" target="new"><i class="fab fa-facebook-f"></i></a>
-    </li>
-    <li>
-      <a href="http://Twitter.com" target="new"><i class="fab fa-twitter"></i></a>
-    </li>
-    <li>
-      <a href="http://Instagram.com" target="new"><i class="fab fa-instagram"></i></a>
-    </li>
-  </ul>
-</nav>
-
-<div class="navegacion-abajo">
-
-
-<nav class="nav-izq-abajo">
-  <ul>
-    <li>Contactanos:</li>
-
-    <li> <a href="faq.html"><i class="fas fa-phone"></i> Llamanos!</a>
-     </li>
-    <li>
-      <a href="faq.html"><i class="far fa-envelope"></i> HappyHome@gmail.com</a>
-    </li>
-  </ul>
-</nav>
-
-<nav class="nav-der-abajo">
-  <ul>
-    <li>
-<a class="mercado" href="http://mercadopago.com.ar"> <img src="img/mercadopago.png" alt="mercadopago"></a>
-    </li>
-
-</nav>
-</div>
+<?php include_once('partials/header.php');?>
 </footer>
 
 
