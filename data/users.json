@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "email": "ntarrie@freddo.com.ar",
+        "password": "$2y$10$pPPfhRTe6QTzyJbPKCbJMOL1cjknyrUwOUoUwshiOxB4ZVXP5ieiW",
+        "telefono": null,
+        "nombre": null,
+        "address": null,
+        "ciudad": null,
+        "codigoPostal": null
+    }
+]

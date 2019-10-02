@@ -1,8 +1,12 @@
 <?php
 
-$email= "";
-$password= "";
-$nombre= "";
+
+require "includes/functions.php";
+
+
+if (!is_logged()){
+  redirect ('ingreso.php');
+ }
 
 if ($_POST){
   $email=$POST["email"];
@@ -54,31 +58,28 @@ if ($_FILES) {
     <div class="container">
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>Nombre y Apellido</b></li>
-        <li class="list-group-item">Juanito Arcoiris</li>
+        <li class="list-group-item"></li>
       </ul>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>E-Mail</b></li>
-        <li class="list-group-item">juanito@arcoiris.com</li>
+        <li class="list-group-item"></li>
       </ul>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>Telefono</b></li>
-        <li class="list-group-item">0-800-888-bart</li>
+        <li class="list-group-item"></li>
       </ul>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>Direccion</b></li>
-        <li class="list-group-item">arcoiris street</li>
+        <li class="list-group-item">a</li>
       </ul>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>Ciudad</b></li>
-        <li class="list-group-item">Springfield</li>
+        <li class="list-group-item"></li>
       </ul>
-      <ul class="list-group list-group-horizontal">
-        <li class="list-group-item"><b>Provincia</b></li>
-        <li class="list-group-item">Buenos Aires</li>
-      </ul>
+
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item"><b>Codigo postal</b></li>
-        <li class="list-group-item">1225</li>
+        <li class="list-group-item"></li>
       </ul>
       <br>
 
