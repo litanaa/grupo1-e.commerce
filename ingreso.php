@@ -1,5 +1,5 @@
 <?php
-<<<<<<< HEAD
+
 require ('includes/functions.php');
 
 session_star();
@@ -13,15 +13,13 @@ foreach ($users as $user) {
           if ($_POST ['email'] === $user ['email'] && password_verify($_POST ['password'],$user['password']) {
             $SESSION['user'] = [
           'email' => $uder ['email'],
-      ];
+      ]
 
-      redirect ('perfil.php');
+      header("location:perfil.php");
       break;
   }
 }
 
-
-=======
 require 'includes/functions.php';
 
 

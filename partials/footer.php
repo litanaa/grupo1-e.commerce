@@ -42,8 +42,10 @@
 <nav class="nav-der-abajo">
 <ul>
   <li>
-<a class="mercado" href="http://mercadopago.com.ar"> <img src="../img/mercadopago.png" alt="mercadopago"></a>
+<a class="mercado" href="http://mercadopago.com.ar"> <img src="img/mercadopago.png" alt="mercadopago"></a>
   </li>
+
+
 
 </nav>
 </div>

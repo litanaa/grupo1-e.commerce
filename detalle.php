@@ -172,11 +172,9 @@
 </main>
 
 <footer>
-<<<<<<< HEAD
-  <?php include_once('partials/header.php');?>
-=======
+
 <?php include_once('partials/footer.php');?>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
+
 </footer>
 
 

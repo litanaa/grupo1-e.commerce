@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
       <link rel="stylesheet" href="css/almohadones.css">
+        <link rel="stylesheet" href="css/styles.css">
   </head>
 
 
@@ -157,7 +158,8 @@
 </main>
 
 <footer>
-    <?php include_once('partials/header.php');?>
+
+  <?php include_once('partials/footer.php');?>
 
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

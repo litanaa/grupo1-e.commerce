@@ -2,18 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-<<<<<<< HEAD:lamparas.php
+
     <title>Mesas</title>
-=======
+
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
     <title>Nuestro sitio</title>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
       <link rel="stylesheet" href="css/lamparas.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
 
 
@@ -21,46 +22,6 @@
 
 
 <header>
-<<<<<<< HEAD:lamparas.php
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">HH</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="ingreso.html">Ingresá <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="registro.html">Registrate</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Categorías
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="detalle.html">Cuadros</a>
-            <a class="dropdown-item" href="#">Deco</a>
-            <a class="dropdown-item" href="mesas.html">Mesas</a>
-            <a class="dropdown-item" href="lamparas.html">Lamparas</a>
-            <a class="dropdown-item" href="canastos.html">Canasto & Contenedores</a>
-            <a class="dropdown-item" href="almohadones.html">Almohadones</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mis Pedidos <i class="fas fa-shopping-cart"></i></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-=======
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
 
   <?php include_once('partials/header.php');?>
 
@@ -85,18 +46,18 @@
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-de-escritorio-ike-madera_iZ1007720815XvZmXpZ1XfZ178900684-748538733-1.jpgXsZ178900684xIM.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-<<<<<<< HEAD:lamparas.php
+
     <h5 class="card-title"><a href="#" class="INDEX">Lampara de Escritorio</a></h5>
     <p class="card-text"> $1199 </p>
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
     </div>
-=======
+
     <h5 class="card-title">Cuadros</h5>
     <p class="card-text">Dale vida a tus paredes</p>
     <a href="detalle.php" class=>más +</a>
   </div>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
 </div>
   </article>
 
@@ -104,16 +65,16 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lamparavintage.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-<<<<<<< HEAD:lamparas.php
+
     <h5 class="card-title"><a href="#" class="INDEX">Lampara Mesa de Luz</a></h5>
     <p class="card-text"> $899 </p>
     <br>
     <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
-=======
+
   <h5 class="card-title">Deco</h5>
   <p class="card-text"> El foco está en los detalles</p>
   <a href="deco.php" class=>más +</a>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
   </div>
   </div>
   </article>
@@ -122,17 +83,17 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-techo-3-luces-andrea-cromo_sku_8513943_07410062.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-<<<<<<< HEAD:lamparas.php
+
   <h5 class="card-title"><a href="#" class="INDEX">Lampara Araña francesa</a></h5>
   <p class="card-text"> $3499 </p>
   <br>
   <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
 
-=======
+
   <h5 class="card-title">Mesas</h5>
   <p class="card-text"> Armá tus espacios </p>
   <a href="#" class=>más +</a>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
   </div>
   </div>
   </article>
@@ -142,7 +103,7 @@
 
     <article>
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-<<<<<<< HEAD:lamparas.php
+
   <img class="producto" src="img\lampara-de-mesa-moderna-cromo-psicodelia-1-tactil-touch.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title"><a href="#" class="INDEX">Lampara ModernTouch</a></h5>
@@ -150,18 +111,11 @@
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
     </div>
-=======
-<img class="producto" src="img/canasto.jpg" class="card-img-top" alt="...">
-<div class="card-body">
-<h5 class="card-title">Canástos & Contenedores</h5>
-<p class="card-text"> La manera más fácil de organizarte </p>
-<a href="canastos.php" class=>más +</a>
-</div>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
 </div>
   </article>
 
-<<<<<<< HEAD:lamparas.php
+
   <article>
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-escritorio-vintage.jpg" class="card-img-top" alt="...">
@@ -186,18 +140,7 @@
   </div>
   </div>
   </article>
-=======
-<article>
-    <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-<img class="producto" src="img/almohadones.jpg.webp" class="card-img-top" alt="...">
-<div class="card-body">
-<h5 class="card-title">Almohadones</h5>
-<p class="card-text"> Buscá estar cómodo</p>
-<a href="almohadones.php" class=>más +</a>
-</div>
-</div>
-</article>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
+
 
   </section>
 </main>
