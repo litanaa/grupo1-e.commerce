@@ -2,7 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD:lamparas.php
     <title>Mesas</title>
+=======
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+    <title>Nuestro sitio</title>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,6 +21,7 @@
 
 
 <header>
+<<<<<<< HEAD:lamparas.php
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">HH</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +59,10 @@
       </form>
     </div>
   </nav>
+=======
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
 
+  <?php include_once('partials/header.php');?>
 
 </header>
 
@@ -76,11 +85,18 @@
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-de-escritorio-ike-madera_iZ1007720815XvZmXpZ1XfZ178900684-748538733-1.jpgXsZ178900684xIM.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+<<<<<<< HEAD:lamparas.php
     <h5 class="card-title"><a href="#" class="INDEX">Lampara de Escritorio</a></h5>
     <p class="card-text"> $1199 </p>
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
     </div>
+=======
+    <h5 class="card-title">Cuadros</h5>
+    <p class="card-text">Dale vida a tus paredes</p>
+    <a href="detalle.php" class=>más +</a>
+  </div>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
 </div>
   </article>
 
@@ -88,10 +104,16 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lamparavintage.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+<<<<<<< HEAD:lamparas.php
     <h5 class="card-title"><a href="#" class="INDEX">Lampara Mesa de Luz</a></h5>
     <p class="card-text"> $899 </p>
     <br>
     <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
+=======
+  <h5 class="card-title">Deco</h5>
+  <p class="card-text"> El foco está en los detalles</p>
+  <a href="deco.php" class=>más +</a>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
   </div>
   </div>
   </article>
@@ -100,11 +122,17 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-techo-3-luces-andrea-cromo_sku_8513943_07410062.jpg" class="card-img-top" alt="...">
   <div class="card-body">
+<<<<<<< HEAD:lamparas.php
   <h5 class="card-title"><a href="#" class="INDEX">Lampara Araña francesa</a></h5>
   <p class="card-text"> $3499 </p>
   <br>
   <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
 
+=======
+  <h5 class="card-title">Mesas</h5>
+  <p class="card-text"> Armá tus espacios </p>
+  <a href="#" class=>más +</a>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
   </div>
   </div>
   </article>
@@ -114,6 +142,7 @@
 
     <article>
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+<<<<<<< HEAD:lamparas.php
   <img class="producto" src="img\lampara-de-mesa-moderna-cromo-psicodelia-1-tactil-touch.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title"><a href="#" class="INDEX">Lampara ModernTouch</a></h5>
@@ -121,9 +150,18 @@
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
     </div>
+=======
+<img class="producto" src="img/canasto.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Canástos & Contenedores</h5>
+<p class="card-text"> La manera más fácil de organizarte </p>
+<a href="canastos.php" class=>más +</a>
+</div>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
 </div>
   </article>
 
+<<<<<<< HEAD:lamparas.php
   <article>
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-escritorio-vintage.jpg" class="card-img-top" alt="...">
@@ -148,60 +186,26 @@
   </div>
   </div>
   </article>
+=======
+<article>
+    <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+<img class="producto" src="img/almohadones.jpg.webp" class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Almohadones</h5>
+<p class="card-text"> Buscá estar cómodo</p>
+<a href="almohadones.php" class=>más +</a>
+</div>
+</div>
+</article>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:index.php
 
   </section>
 </main>
 
 <footer>
-  <div class="row">
 
-<nav class="nav-izq">
-  <ul>
-    <li>Conocenos</li>
-    <li>Dónde estamos?</li>
-    <li>
-      <a href="faq.html">Preguntas Frecuentes</a>
-    </li>
-  </ul>
-</nav>
+<?php include_once('partials/footer.php');?>
 
-<nav class="nav-der">
-  <ul>
-    <li>
-<a href="http://Facebook.com" target="new"><i class="fab fa-facebook-f"></i></a>
-    </li>
-    <li>
-      <a href="http://Twitter.com" target="new"><i class="fab fa-twitter"></i></a>
-    </li>
-    <li>
-      <a href="http://Instagram.com" target="new"><i class="fab fa-instagram"></i></a>
-    </li>
-  </ul>
-</nav>
-
-<div class="navegacion-abajo">
-
-
-<nav class="nav-izq-abajo">
-  <ul>
-    <li>Contactanos:</li>
-
-    <li> <a href="faq.html"><i class="fas fa-phone"></i> Llamanos!</a>
-     </li>
-    <li>
-      <a href="faq.html"><i class="far fa-envelope"></i> HappyHome@gmail.com</a>
-    </li>
-  </ul>
-</nav>
-
-<nav class="nav-der-abajo">
-  <ul>
-    <li>
-<a class="mercado" href="http://mercadopago.com.ar"> <img src="img/mercadopago.png" alt="mercadopago"></a>
-    </li>
-
-</nav>
-</div>
 </footer>
 
 

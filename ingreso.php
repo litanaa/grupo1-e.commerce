@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 require ('includes/functions.php');
 
 session_star();
@@ -20,6 +21,32 @@ foreach ($users as $user) {
 }
 
 
+=======
+require 'includes/functions.php';
+
+
+if ($_POST){
+  $json = file_get_contents('data/users.json');
+
+  $users = json_decode ($json, true);{
+    foreach ($users as $user) {
+      if ($_POST ["email"]) $user ["email"] && pasword_verify($_POST ["password"], ($user) ["password"])
+
+
+       {$_SESSION ['user'] = [
+        'email' => $user ['email'],
+
+      ]
+    }
+  ;}
+}
+}
+
+if ($_POST){
+header ("Location:perfil.php");
+exit;
+}
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
  ?>
 
 
@@ -44,16 +71,27 @@ foreach ($users as $user) {
     </header>
 
 <div class="container">
+<<<<<<< HEAD
 <form class="row" action="validar.php" method="post">
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputEmail1">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email">
+=======
+<form class="row" action="ingreso.php" method="post">
+  <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email" name="email" value="">
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
     <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más.</small>
   </div>
 
   <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
     <label for="exampleInputPassword1">Contraseña</label>
+<<<<<<< HEAD
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+=======
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="email" value="">
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
   </div>
 
   <div class="form-group form-check" class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
@@ -67,7 +105,11 @@ foreach ($users as $user) {
 </div>
 
 <footer>
+<<<<<<< HEAD
 <?php include_once('partials/header.php');?>
+=======
+<?php include_once('partials/footer.php');?>
+>>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
 </footer>
 
 

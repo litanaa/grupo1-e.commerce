@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mesas</title>
+    <title>Canastos & Contenedores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-      <link rel="stylesheet" href="css/mesas.css">
+      <link rel="stylesheet" href="css/canastos.css">
   </head>
 
 
@@ -39,7 +39,7 @@
             <a class="dropdown-item" href="deco.html">Deco</a>
             <a class="dropdown-item" href="mesas.html">Mesas</a>
             <a class="dropdown-item" href="lamparas.html">Lamparas</a>
-            <a class="dropdown-item" href="canastos.html">Canastos & Contenedores</a>
+            <a class="dropdown-item" href="canastos.html">Canasto & Contenedores</a>
             <a class="dropdown-item" href="almohadones.html">Almohadones</a>
           </div>
         </li>
@@ -60,8 +60,8 @@
 
 <div class="container">
       <div class="jumbotron">
-      <h1 class="display-4"class="center" ><b>DECO</b></h1>
-      <p class="lead"> Dale a tus espacios un toque distinto. Dale personalidad! </p>
+      <h1 class="display-4"class="center" ><b>CANASTOS & CONTENEDORES</b></h1>
+      <p class="lead"> Organizate, la manera más práctica y linda de organizar tus espacios!</p>
       <hr class="my-4">
 
           </div>
@@ -74,96 +74,90 @@
 
     <article>
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-  <img class="producto" src="https://cdn.shopify.com/s/files/1/2157/5519/products/1000x650_5c4bdbc7-1624-4544-af42-4b1cd6be044f_413x637.progressive.jpg" class="card-img-top" alt="...">
+  <img class="producto" src="img/canasto1.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Mesa de cafe daisy</a></h5>
-    <p class="card-text"> $5999 </p>
+    <h5 class="card-title"><a href="#" class="INDEX">Mimbre</a></h5>
+    <p class="card-text"> $550 </p>
     <br>
-    <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
+    <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
     </div>
 </div>
   </article>
 
   <article>
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-  <img class="producto" src="img\mesa-comedor-160x080-vintage-escandinava-nordica-tigre-D_NQ_NP_855698-MLA25932434639_082017-O.jpg" class="card-img-top" alt="...">
+  <img class="producto" src="img/canasto2.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Mesa Vintage Escandinava</a></h5>
-    <p class="card-text"> $3499 </p>
+    <h5 class="card-title"><a href="#" class="INDEX">Tela</a></h5>
+    <p class="card-text"> $550 </p>
     <br>
-    <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
+    <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
   </div>
   </div>
   </article>
 
   <article>
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-  <img class="producto" src="img\00112750001740____1__640x640.jpg" class="card-img-top" alt="...">
+  <img class="producto" src="img/canasto3.webp" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Mesa exterior Stockholm</a></h5>
-  <p class="card-text"> $4499 </p>
+  <h5 class="card-title"><a href="#" class="INDEX">Hierro</a></h5>
+  <p class="card-text"> $550 </p>
   <br>
-  <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
+  <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
 
   </div>
   </div>
-
-
   </article>
 
   </section>
 
-    <section class="row">
-
-      <article>
-      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-    <img class="producto" src="img\mesa-de-juegos-victoriana-de-palisandro-decada-de-1850-imagen-1.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><a href="#" class="INDEX">Mesa de Juegos</a></h5>
-      <p class="card-text"> $1499 </p>
-      <br>
-      <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
-      </div>
-  </div>
-    </article>
+  <section class="row">
 
     <article>
-        <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-    <img class="producto" src="img\mesa-ratona-patch-900x900.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title"><a href="#" class="INDEX">Mesa Ratona</a></h5>
-      <p class="card-text"> $2999 </p>
-      <br>
-      <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
-    </div>
-    </div>
-    </article>
-
-    <article>
-        <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
-    <img class="producto" src="img\MESA DE COCINA.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Mesa de Cocina</a></h5>
-    <p class="card-text"> $4199 </p>
+    <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/canasto4.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Trenzado</a></h5>
+    <p class="card-text"> $550 </p>
     <br>
-    <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
-
+    <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
     </div>
-    </div>
+  </div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/canasto5.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><a href="#" class="INDEX">Black</a></h5>
+    <p class="card-text"> $550 </p>
+    <br>
+    <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
+  </div>
+  </div>
+  </article>
+
+  <article>
+      <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
+  <img class="producto" src="img/canasto.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title"><a href="#" class="INDEX">Mimbre Circular</a></h5>
+  <p class="card-text"> $550 </p>
+  <br>
+  <p class="card-text"> <b> HASTA 12 CUOTAS </b></p>
+
+  </div>
+  </div>
+  </article>
+
+  </section>
 
 
-    </article>
-
-    </section>
 </main>
 
 <footer>
-  <?php include_once('partials/footer.php');?>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:deco.php
+<?php include_once('partials/footer.php');?>
 </footer>
-
-
-
 
 
 
