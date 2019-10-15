@@ -1,8 +1,7 @@
 <?php
-
-require ('includes/functions.php');
+require "includes/functions.php";
 
 session_start();
 session_destroy();
 
-redirect('login.php');
+redirect("ingreso.php");

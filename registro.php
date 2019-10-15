@@ -1,21 +1,19 @@
 <?php
 
-if ($_POST){
+if ($_POST) {
 
-  $json = file_get_contents ('data/users.jason');
+  $json = file_get_contents ("data/users.json");
 
   $users = json_decode($json, true);
 
   $users[] = [
-
-    'email' => $_POST['email'],
-    'password' => password_hash($_POST['password'], PASSWORD_DEFAULT),
-
+    "email" => $_POST["email"],
+    "password" => password_hash($_POST ["password"], PASSWORD_DEFAULT),
   ];
 
 $json = json_encode($users, JSON_PRETTY_PRINT);
 
-file_put_contents('data/users.json', $json);
+file_put_contents("data/users.json", $json);
 
 }
 
@@ -48,58 +46,32 @@ file_put_contents('data/users.json', $json);
 
 
   <form action="registro.php" method="post">
-  <div class="row">
-    <div class="elquehayquearreglar" class="form-group" class="col -xs-12 col-md-6 col-lg-4s" style="width: 32rem;">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresá tu email" name="email" value="">
+
+      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más.</small>
     </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+
+    <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
+      <label for="exampleInputPassword1">Contraseña</label>
+      <input type="password" class="form-control" id="password" placeholder="Contraseña" name="password" value="">
+
     </div>
-    <div class="form-group col-md-6">
-      <label for="Teléfono">Teléfono</label>
-      <input type="number" class="form-control" id="Teléfono" placeholder="Teléfono">
+
+
+    <div class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
+    <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
-  </div>
-  <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 32rem;" >
-    <label for="inputAddress">Nombre y Apellido</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Manyula">
-  </div>
-  <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 32rem;">
-    <label for="inputAddress">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Av. Siempre viva 742">
-  </div>
-  <div class="form-row "class="col -xs-12 col-md-6 col-lg-4s" style="width: 32rem;">
-    <div class="form-group col-md-6">
-      <label for="inputCity">Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
+    </form>
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Provincia</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputZip">Cód. Postal</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
+
+<br>
+<br>
+
 
 <footer>
-  <?php include_once('partials/header.php');?>
+  <?php include_once('partials/footer.php');?>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

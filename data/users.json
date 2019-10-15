@@ -1,15 +1,22 @@
-<<<<<<< HEAD
-[]
-=======
 [
     {
-        "email": "ntarrie@freddo.com.ar",
-        "password": "$2y$10$pPPfhRTe6QTzyJbPKCbJMOL1cjknyrUwOUoUwshiOxB4ZVXP5ieiW",
-        "telefono": null,
-        "nombre": null,
-        "address": null,
-        "ciudad": null,
-        "codigoPostal": null
+        "email": "natalia@hola.com",
+        "password": "$2y$10$beJHBZ1GEInUbPFXMylioedwX5hDzedP44azPrPYKlbuVD6tNr6v6"
+    },
+    {
+        "email": "matias@hola.com",
+        "password": "$2y$10$dO7j6ZSeoZE8aNSdxdK.Q..Ugj252WlSicQBfWO7n\/GizFvBcFkT6"
+    },
+    {
+        "email": "matias@hola.com",
+        "password": "$2y$10$RJ0u\/v.Bc1VUSfeRxR4MIeaKm5X1hWutpraAYzNwwdLUGJC5SMani"
+    },
+    {
+        "email": "natalia@hola.com",
+        "password": "$2y$10$\/L.RMOFRHhfqa0TJlL4pc.eG7sFUOrKC.1qYkpVO2ac3NDL3eiNTi"
+    },
+    {
+        "email": "cintia@hola.com",
+        "password": "$2y$10$3ZsIteEBIldNl18JjjbKB.bwrAHHDc5drdVZiMB0WrUWZ58VP0u0m"
     }
 ]
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092

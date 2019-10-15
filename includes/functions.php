@@ -1,15 +1,20 @@
 <?php
 
-function redirect ($url){
-  return header('location :' . $url);
+function redirect($url){
+  return header("location: " . $url);
 }
 
 function is_logged(){
   return session_status() === PHP_SESSION_ACTIVE;
 }
 
-<<<<<<< HEAD
-=======
+function upload_file($file, $dir = "uploads"){
+  $ext = pathinfo($file["name"], PATHINFO_EXTENSION);
 
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092
+  $name = md5(microtime());
+
+move_uploaded_file($_FILES ["avatar"]["tmp_name"], $dir . "/". $name . "." . $ext);
+
+}
+
  ?>
