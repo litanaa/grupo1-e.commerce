@@ -2,9 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
-    <title>Mesas</title>
-
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
     <title>Deco</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

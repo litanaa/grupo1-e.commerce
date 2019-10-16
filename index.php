@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
-    <title>Nuestro sitio</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -23,15 +23,7 @@
 </header>
 
 
-<div class="container">
-  <div class="jumbotron">
-      <h1 class="display-4s">Happy Home!</h1>
-      <p class="lead">Te brindamos los productos para que la mejor experiencia, la vivas en tu hogar.</p>
-      <hr class="my-4">
-      <p>Encontrá todos los productos para crear tu propio espacio.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Conocenos!</a>
-      </div>
-</div>
+
 
 <main>
 

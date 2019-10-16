@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
-    <title>Happy Home!</title>
+    <title>Preguntas Frecuentes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
@@ -11,8 +11,6 @@
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
   </head>
   <body>
-<<<<<<< HEAD:faq.php
-
     <header>
 
       <?php include_once('partials/header.php');?>
@@ -25,14 +23,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-=======
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:faq.html
-
-    <header>
-
-      <?php include_once('partials/header.php');?>
-
-    </header>
+    </nav>
 
 
 <div class="container">
@@ -104,12 +95,8 @@
     </div>
 
 
-<footer>
-<<<<<<< HEAD:faq.php
-      <?php include_once('partials/header.php');?>
-=======
+    <footer>
       <?php include_once('partials/footer.php');?>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:faq.html
     </footer>
 
 

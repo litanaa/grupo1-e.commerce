@@ -18,5 +18,21 @@
     {
         "email": "cintia@hola.com",
         "password": "$2y$10$3ZsIteEBIldNl18JjjbKB.bwrAHHDc5drdVZiMB0WrUWZ58VP0u0m"
+    },
+    {
+        "email": "matias.cangiani@gmail.com",
+        "password": "$2y$10$0zncPld\/UIYkLdgMabMqhedDkEGyZWXFnsVGH\/uySZWtFDupiwajG"
+    },
+    {
+        "email": "matias.cangiani@gmail.com",
+        "password": "$2y$10$yEvgLDgb3B7XNWsjS8OIjOa8xIIpvffS02zO10clxQJEh34QEFwje"
+    },
+    {
+        "email": "matias.cangiani@gmail.com",
+        "password": "$2y$10$DCCJ487Tk06jIu0fvCKBlerF5sQLqpPoGT8H1h\/ylrsRlmktx9jam"
+    },
+    {
+        "email": "matias.cangiani@gmail.com",
+        "password": "$2y$10$plwq8MQzuGbzYMnVOmy1ie0Df9cxk7nli9TVWFA1AHnjw0kKqW0yi"
     }
 ]
