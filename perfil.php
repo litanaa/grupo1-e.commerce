@@ -13,7 +13,7 @@ if ($_FILES){
 }
 
 
-
+var_dump($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +35,7 @@ if ($_FILES){
 
     </header>
 
-<h1><?= $_SESSION["user"]["email"] ?></h1>
+      <h1><?= $_SESSION["user"]["email"] ?></h1>
 
     <div class="container">
       <ul class="list-group list-group-horizontal">

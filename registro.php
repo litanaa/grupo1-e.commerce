@@ -1,6 +1,15 @@
 <?php
 
+$errors = [];
+
 if ($_POST) {
+
+        if(strlen($_POST["email"]) == 0){
+          $errors[]="No completaste el email";
+        }
+        if (filter_var($_POST["email"], FILTER_VALITE_MAIL) == false){
+          $errors[]= "el mail no tiene el formato correcto";
+        }
 
   $json = file_get_contents ("data/users.json");
 
@@ -57,6 +66,11 @@ file_put_contents("data/users.json", $json);
       <label for="exampleInputPassword1">Contraseña</label>
       <input type="password" class="form-control" id="password" placeholder="Contraseña" name="password" value="">
 
+      <div class="form-group"class="col -xs-12 col-md-6 col-lg-4s" style="width: 42rem;">
+        <label for="exampleInputName">Nombre</label>
+        <input type="text" class="form-control" id="exampleInputname" aria-describedby="" placeholder="Ingresá tu Nombre" name="name" value="">
+
+
     </div>
 
 
@@ -68,7 +82,6 @@ file_put_contents("data/users.json", $json);
 
 <br>
 <br>
-
 
 <footer>
   <?php include_once('partials/footer.php');?>
