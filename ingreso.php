@@ -13,7 +13,7 @@ foreach ($users as $user) {
       ) {
 
           $_SESSION ["user"] = [
-            "email" => $email,
+            "email" => $_POST["email"],
           ];
 
           if (isset($_POST["recordarme"])){

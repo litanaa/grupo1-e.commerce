@@ -11,7 +11,6 @@
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
   </head>
   <body>
-<<<<<<< HEAD:faq.php
 
     <header>
 
@@ -25,14 +24,6 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-=======
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:faq.html
-
-    <header>
-
-      <?php include_once('partials/header.php');?>
-
-    </header>
 
 
 <div class="container">
@@ -105,11 +96,8 @@
 
 
 <footer>
-<<<<<<< HEAD:faq.php
-      <?php include_once('partials/header.php');?>
-=======
       <?php include_once('partials/footer.php');?>
->>>>>>> f54e20f5baa59746e8eaf7a54706f167d331f092:faq.html
+
     </footer>
 
 
