@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon-32x32.png" type="image/png">
-    
+
     <title>Canastos & Contenedores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-      <link rel="stylesheet" href="css/canastos.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
 
 
@@ -41,7 +41,7 @@
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto1.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Mimbre</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Mimbre</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
@@ -53,7 +53,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto2.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Tela</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Tela</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
@@ -65,7 +65,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto3.webp" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Hierro</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Hierro</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -82,7 +82,7 @@
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto4.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Trenzado</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Trenzado</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -94,7 +94,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto5.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Black</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Black</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -106,7 +106,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/canasto.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Mimbre Circular</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Mimbre Circular</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> HASTA 12 CUOTAS </b></p>

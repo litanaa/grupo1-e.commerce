@@ -9,9 +9,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous"
-    <link rel="stylesheet" href="css/styler.css">
-      <link rel="stylesheet" href="css/deco.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 
   </head>
 
@@ -46,7 +45,7 @@
 
   <img class="producto" src="img/deco1.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Dúo Cal</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Dúo Cal</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
@@ -58,7 +57,7 @@
 
   <img class="producto" src="img/deco2.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Cáctus pink</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Cáctus pink</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA  12 CUOTAS</b></p>
@@ -72,7 +71,7 @@
 
   <img class="producto" src="img/deco3.webp" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Vela Bronce</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Vela Bronce</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -91,7 +90,7 @@
     <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/deco4.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX"> Vela Fix U</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX"> Vela Fix U</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -103,7 +102,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/deco5.webp" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Dúo B&W</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Dúo B&W</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> HASTA 12 CUOTAS</b></p>
@@ -115,7 +114,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/deco6.webp" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Double Black</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Double Black</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> HASTA 12 CUOTAS </b></p>

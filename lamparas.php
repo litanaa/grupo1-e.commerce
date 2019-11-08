@@ -10,7 +10,6 @@
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-      <link rel="stylesheet" href="css/lamparas.css">
       <link rel="stylesheet" href="css/styles.css">
   </head>
 
@@ -44,7 +43,7 @@
   <img class="producto" src="img\lampara-de-escritorio-ike-madera_iZ1007720815XvZmXpZ1XfZ178900684-748538733-1.jpgXsZ178900684xIM.jpg" class="card-img-top" alt="...">
   <div class="card-body">
 
-    <h5 class="card-title"><a href="#" class="INDEX">Lampara de Escritorio</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara de Escritorio</a></h5>
     <p class="card-text"> $1199 </p>
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
@@ -63,7 +62,7 @@
   <img class="producto" src="img\lamparavintage.jpg" class="card-img-top" alt="...">
   <div class="card-body">
 
-    <h5 class="card-title"><a href="#" class="INDEX">Lampara Mesa de Luz</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara Mesa de Luz</a></h5>
     <p class="card-text"> $899 </p>
     <br>
     <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
@@ -81,7 +80,7 @@
   <img class="producto" src="img\lampara-techo-3-luces-andrea-cromo_sku_8513943_07410062.jpg" class="card-img-top" alt="...">
   <div class="card-body">
 
-  <h5 class="card-title"><a href="#" class="INDEX">Lampara Araña francesa</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara Araña francesa</a></h5>
   <p class="card-text"> $3499 </p>
   <br>
   <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
@@ -103,7 +102,7 @@
 
   <img class="producto" src="img\lampara-de-mesa-moderna-cromo-psicodelia-1-tactil-touch.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Lampara ModernTouch</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara ModernTouch</a></h5>
     <p class="card-text"> $9899 </p>
     <br>
     <p class="card-text"> <b>Hasta 6 cuotas sin interes</b></p>
@@ -117,7 +116,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\lampara-escritorio-vintage.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Lampara Oldesk</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara Oldesk</a></h5>
     <p class="card-text"> $3299 </p>
     <br>
     <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>
@@ -129,7 +128,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img\set-x-3-farol-estaca-solar-lampara-jardin-balcon-exterior-D_NQ_NP_774803-MLA32131221394_092019-F.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Lampara Garden </a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Lampara Garden </a></h5>
   <p class="card-text"> $5999 </p>
   <br>
   <p class="card-text"> <b> Hasta 6 cuotas sin interes</b></p>

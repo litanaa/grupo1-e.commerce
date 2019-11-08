@@ -9,7 +9,7 @@
 
     <script src="https://kit.fontawesome.com/61e275e2c2.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
-      <link rel="stylesheet" href="css/almohadones.css">
+
         <link rel="stylesheet" href="css/styles.css">
   </head>
 
@@ -42,7 +42,7 @@
     <div class="card1" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Love</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Love</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -54,7 +54,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="INDEX">Enjoy</a></h5>
+    <h5 class="card-title"><a href="perview.php" class="INDEX">Enjoy</a></h5>
     <p class="card-text"> $550 </p>
     <br>
     <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -66,7 +66,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo3.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Poder</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Poder</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -79,7 +79,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo4.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Fuerza</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Fuerza</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -92,7 +92,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo5.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Vive</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Vive</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -105,7 +105,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo6.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Small Things</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Small Things</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -118,7 +118,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo7.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Positiva</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Positiva</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -131,7 +131,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo8.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Cisnes</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Cisnes</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>
@@ -144,7 +144,7 @@
       <div class="card" class="col -xs-12 col-md-6 col-lg-4s" style="width: 18rem;">
   <img class="producto" src="img/almo9.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-  <h5 class="card-title"><a href="#" class="INDEX">Life</a></h5>
+  <h5 class="card-title"><a href="perview.php" class="INDEX">Life</a></h5>
   <p class="card-text"> $550 </p>
   <br>
   <p class="card-text"> <b> 12 CUOTAS</b></p>

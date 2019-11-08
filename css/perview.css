@@ -1,0 +1,26 @@
+.row {
+  background-color: #D2D8DF;
+  width: 400px;
+  height: 1200px;
+  position: relative;
+  top: 100px;
+  left: 1100px;
+  margin-color: black;
+
+}
+
+.clase {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.middle {
+  background-color: #D2D8DF;
+  width: 600px;
+  height: 1200px;
+  position: relative;
+  top: 100px;
+  left: 700px;
+  margin-color: black;
+  float: right;
+}
