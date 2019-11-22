@@ -1,10 +1,10 @@
 .row {
   background-color: #D2D8DF;
-  width: 400px;
-  height: 1200px;
-  position: relative;
-  top: 100px;
-  left: 1100px;
+  width:20%;
+  height: 100%;
+  position:relative;
+  left:80%;
+
   margin-color: black;
 
 }
@@ -17,10 +17,12 @@
 .middle {
   background-color: #D2D8DF;
   width: 600px;
-  height: 1200px;
   position: relative;
   top: 100px;
   left: 700px;
   margin-color: black;
   float: right;
+}
+body{
+  background-color: black;
 }

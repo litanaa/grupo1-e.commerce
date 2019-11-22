@@ -21,7 +21,7 @@
 <p class="clase">Nombre de Producto</p>
 </div>
 <div class="middle">
-  <p>hlas</p>
+  <p></p>
 </div>
 
 

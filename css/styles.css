@@ -76,3 +76,8 @@ nav.nav-der-abajo ul li a{
   display: inline;
   width: 30%;
 float: center;}
+
+carousel{
+  height: 10px;
+  width: 10px;
+}
